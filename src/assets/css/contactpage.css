@@ -1,0 +1,169 @@
+.contactpage {
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(99vh - 83px);
+    width: 100%;
+    gap: 200px;
+}
+
+.contactName {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 55px;
+    margin-bottom: 15px;
+    color: #865DFF;
+}
+
+.allButtons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nametext {
+    height: 30px;
+    width: 350px;
+    padding: 20px 5px 20px 5px;
+    border-radius: 5px;
+    background: #FFE6E6;
+    border-color: #50C4ED;
+    color: #03001C;
+    font-size: 17px;
+    font-weight: 550;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    padding: 10px 5px 10px 5px;
+    font-size: 17px;
+    font-weight: 550;
+    border-radius: 5px;
+    background: #FFE6E6;
+    border-color: #50C4ED;
+    color: #03001C;
+    outline: none;
+}
+
+.submittab {
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton {
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background: #50C4ED;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #03001C;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+}
+.socialIcon {
+    display: flex;
+}
+
+.socialmedia {
+    list-style: none;
+}
+
+.socialmediaIcon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.socialmediaIcon .icon {
+    position: relative;
+    color: #50C4ED;
+    transition: .5s;
+}
+
+.socialmediaIcon:hover .icon {
+    color: #150050;
+    transform: rotateY(360deg);
+}
+
+.socialmediaIcon:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.socialmediaIcon:hover:before {
+    top: 0;
+}
+.socialmedia:nth-child(1) a:before {
+    background: #0077b5;
+}
+.socialmedia:nth-child(2) a:before {
+    background: #8c5494;
+}
+.socialmedia:nth-child(3) a:before {
+    background: #FBBC05;
+}
+.socialmedia:nth-child(3) a:hover + .tooltiptext{
+    background: #FBBC05;
+    width: 230px;
+    visibility: visible;
+    color: #150050;
+}
+.socialmedia:nth-child(4) a:before {
+    background: #25D366;
+}
+.socialmedia:nth-child(5) a:before{
+    background: rgb(173, 62, 62);
+}
+.socialmedia:nth-child(5) a:hover + .tooltiptext{
+    background: rgb(173, 62, 62);
+    visibility: visible;
+}
+
+.gmail {
+    height: 70px;
+    width: 70px;
+}
+
+.tooltiptext {
+    width: 120px;
+    background-color: #000000;
+    color: #FFE6E6;
+    text-align: center;
+    font-weight: 450;
+    border-radius: 6px;
+    padding: 5px 0;
+    visibility: hidden;
+    margin-top: 10px;
+    
+}
+
+.inputlabel {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 450;
+    color: #FFE6E6;
+}

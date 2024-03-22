@@ -1,0 +1,82 @@
+.aboutsection {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px;
+    color: #865DFF; 
+    margin: 20px 0 10px 0;  
+}
+.aboutdetials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutinfo {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFE6E6;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    animation: slide-in-anim 2s ease-out forwards;
+}
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+	/* 60% {
+		transform: translateX(10%);
+	} */
+	/* 75% {
+		transform: translateX(-10%);
+	} */
+	100% {
+		opacity: 1;
+		/* transform: translateX(0%); */
+	}
+}
+
+.technologydata {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFE6E6;
+    margin: 0 20px 20px 0;
+    padding: 0;
+}
+.skillsection {
+    display: flex;
+    justify-content: space-evenly;
+}
+.techskills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsicons{
+    height: 60px;
+    width: 60px;
+}
+.skillsicons:hover + .skilltiptext{
+    visibility: visible;   
+}
+.skilltiptext {
+    width: 120px;
+    background-color: #50C4ED;
+    color: #150050;
+    text-align: center;
+    font-weight: 550;
+    border-radius: 6px;
+    padding: 5px 0;
+    visibility: hidden;
+    margin-bottom: 15px;
+}
+
+.aboutprofilepic{
+    height:400px;
+    width: 350px;
+    border-radius: 10px;
+    animation: slide-in-anim 2s ease-out forwards;  
+}
+.aboutprofilepic:hover{
+    filter : grayscale(100%)
+}

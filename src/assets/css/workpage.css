@@ -1,0 +1,106 @@
+.projectHeading {
+    font-family:  "Bebas Neue", sans-serif;
+    font-size: 45px;
+    margin: 20px 0 20px 0;
+    color: #865DFF;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.projects {
+    width: 100%;
+    min-height: calc(99vh - 45px);
+}
+
+.ekycproject {
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.ekyc {
+    height: 400px;
+    width: 100%;
+    background: #150050;
+    border:1px solid #150050;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ekycprojlink {
+    display: flex;
+    justify-content: center;
+    color: #50C4ED;
+    margin-top: 10px;
+}
+
+.ekydesc {
+    text-align: left;
+    color: #FFE6E6;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.yearekyc{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.projectlinkimg {
+    height: 20px;
+    width: 20px;
+    background:#50C4ED;
+    border-radius: 50%;
+}
+
+.DescPoints {
+    margin-top: 5px;
+    columns: 2;
+}
+
+.ekyc1 {
+    height: 400px;
+    width: 85%;
+    background: #150050;
+    border:1px solid #150050;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ekyc2 {
+    height: 400px;
+    width: 95%;
+    background: #150050;
+    border:1px solid #150050;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projectName {
+    font-family:  "Bebas Neue", sans-serif;
+    font-size: 30px;
+    color : #50C4ED;
+    font-weight: 400;
+    text-decoration:  underline;
+}
+
+.projectInfodata {
+    margin : 10px
+}
+.desc {
+    margin: 20px;
+} 
