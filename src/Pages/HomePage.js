@@ -24,12 +24,12 @@ function Homepage(event) {
                             <button className="buttoncontact" onClick={() => window.location.href = '#'}>RESUME</button>
                             <ul className="socialIcon">
                                 <li className="socialmedia">
-                                    <a className='socialmediaIcon' href="#">
+                                    <a className='socialmediaIcon' href="https://www.linkedin.com/in/anant-singh-24722a109">
                                         <i class="fa-brands fa-linkedin-in icon"></i>
                                     </a>
                                 </li>
                                 <li className="socialmedia">
-                                    <a className='socialmediaIcon' href="#">
+                                    <a className='socialmediaIcon' href="https://github.com/Anant1202/">
                                         <i class="fa-brands fa-github-alt icon"></i>
                                     </a>
                                 </li>
@@ -42,7 +42,7 @@ function Homepage(event) {
                                     </div>
                                 </li>
                                 <li className="socialmedia">
-                                    <a className='socialmediaIcon' href="#">
+                                    <a className='socialmediaIcon' href="https://web.whatsapp.com/">
                                         <i class="fa-brands fa-whatsapp icon"></i>
                                     </a>
                                 </li>
