@@ -1,13 +1,15 @@
 .projectHeading {
-    font-family:  "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 45px;
     margin: 20px 0 20px 0;
     color: #865DFF;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
+    padding: 0 15px;
 }
 
 .projects {
@@ -26,7 +28,7 @@
     height: 400px;
     width: 100%;
     background: #150050;
-    border:1px solid #150050;
+    border: 1px solid #150050;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -49,7 +51,7 @@
     padding: 0;
 }
 
-.yearekyc{
+.yearekyc {
     display: flex;
     justify-content: space-between;
     margin: 10px;
@@ -58,7 +60,7 @@
 .projectlinkimg {
     height: 20px;
     width: 20px;
-    background:#50C4ED;
+    background: #50C4ED;
     border-radius: 50%;
 }
 
@@ -71,7 +73,7 @@
     height: 400px;
     width: 85%;
     background: #150050;
-    border:1px solid #150050;
+    border: 1px solid #150050;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -82,25 +84,93 @@
     height: 400px;
     width: 95%;
     background: #150050;
-    border:1px solid #150050;
+    border: 1px solid #150050;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .projectName {
-    font-family:  "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 30px;
-    color : #50C4ED;
+    color: #50C4ED;
     font-weight: 400;
-    text-decoration:  underline;
+    text-decoration: underline;
 }
 
 .projectInfodata {
-    margin : 10px
+    margin: 10px
 }
+
 .desc {
     margin: 20px;
-} 
+}
+
+@media only screen and (max-width: 767px) {
+    .projectHeading {
+        font-size: 35px;
+    }
+
+    .ekycproject {
+        flex-direction: column;
+    }
+
+    .ekyc1 {
+        max-width: 85%;
+        height: 350px;
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .ekyc {
+        max-width: 85%;
+        height: 350px;
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .ekyc2 {
+        max-width: 85%;
+        height: 350px;
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .ekydesc {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
+    .DescPoints li{
+        list-style: none;
+    }
+    .ekycsqaure img{
+        height:300px;
+        width :400px
+    }
+}
+
+@media only screen and (max-width: 575px) { 
+    .ekycsqaure img{
+        height:270px;
+        width :250px
+    }
+    .ekydesc {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .ekycsqaure img{
+        height:290px;
+        width :200px
+    }
+}

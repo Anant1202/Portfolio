@@ -76,7 +76,7 @@ function ContactPage() {
             <div className="contactpage">
                 <div>
                     <p className="contactName">LET'S CONNECT</p>
-                    <p style={{ color: '#FFE6E6', fontSize: '20px', fontWeight: '450', marginBottom : "15px"}}>If you have any suggestion, feedback, opportunity,
+                    <p className = "contactDesc">If you have any suggestion, feedback, opportunity,
                     <br/> or are interested in collaborating on a project, I would 
                     <br/> love to hear from you! Please feel free to reach out to 
                     <br/> me using the contact details provided below. 

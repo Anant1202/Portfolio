@@ -1,6 +1,7 @@
 .header {
-    background-color: #150050;
+    background-color: #150050;   
 }
+
 
 .name {
     font-family: "Bebas Neue", sans-serif;
@@ -15,10 +16,7 @@
     list-style-type: none;
     font-size: 25px;
     font-family: "Bebas Neue", sans-serif;
-}
-
-.menubar li {
-    margin-right: 70px;
+    gap: 70px;
 }
 
 .menubar a {
@@ -74,4 +72,21 @@
     /* background-color: black; */
     color: #FFE6E6;
     padding: 10px 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .menubar{
+        gap: 30px;
+        font-size: 18px;
+    }
+    
+    .name{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .headercontainer {
+        flex-direction: column;
+    }
 }
