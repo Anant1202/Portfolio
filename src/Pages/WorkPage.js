@@ -40,7 +40,7 @@ function WorkPage() {
                             <div className="ekycsqaure">
                                 <a href="https://ekyc.bajajfinservsecurities.in/">                               
                                 <img src={sliderImages.project1[index]} 
-                                alt = 'Slider' height={"350px"} width={"450px"} 
+                                alt = 'Slider' height={"350px"} width={"440px"} 
                                 style={{ borderRadius: "10px" }} />
                                 </a>
                             </div>
@@ -159,7 +159,7 @@ function WorkPage() {
                             <div className="ekycsqaure">
                                 <a href="https://www.bajajbroking.in/">
                                 <img src={sliderImages.project4[index]} 
-                                alt = 'Slider' height={"350px"} width={"450px"} 
+                                alt = 'Slider' height={"350px"} width={"460px"} 
                                 style={{ borderRadius: "10px" }} />       
                                 </a>
                             </div>

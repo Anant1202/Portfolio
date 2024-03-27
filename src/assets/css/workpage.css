@@ -15,8 +15,18 @@
 .projects {
     width: 100%;
     min-height: calc(99vh - 45px);
+    animation: 1.5s fadeInUp;
 }
-
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
 .ekycproject {
     display: flex;
     gap: 60px;

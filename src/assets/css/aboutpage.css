@@ -1,10 +1,23 @@
+.aboutme {
+    animation: 1.5s fadeInDown;
+}
+
 .aboutsection {
     font-family: "Bebas Neue", sans-serif;
     font-size: 45px;
     color: #865DFF;
     margin: 20px 0 10px 0;
 }
-
+@keyframes fadeInDown {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
 .aboutdetials {
     display: flex;
     justify-content: space-evenly;
@@ -18,23 +31,15 @@
     margin: 0;
     padding: 0;
     width: 50%;
-    animation: slide-in-anim 2s ease-out forwards;
+    /* animation: slide-in-anim 2s ease-out forwards; */
 }
 
 @keyframes slide-in-anim {
     20% {
         opacity: 0;
     }
-
-    /* 60% {
-		transform: translateX(10%);
-	} */
-    /* 75% {
-		transform: translateX(-10%);
-	} */
     100% {
         opacity: 1;
-        /* transform: translateX(0%); */
     }
 }
 
