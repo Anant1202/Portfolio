@@ -23,15 +23,15 @@ function Homepage(event) {
                             </p>
                             <div className="buttons">
                                 {/* <button className="buttoncontact" onClick={() => window.open={Resume}}>RESUME</button> */}
-                                <a className="buttoncontact" href={Resume} onClick={() => window.open={Resume}} download="My Resume">RESUME</a>
+                                <a className="buttoncontact" href={Resume} target="_blank" onClick={() => window.open={Resume}} download="My Resume">RESUME</a>
                                 <ul className="socialIcon">
                                     <li className="socialmedia">
-                                        <a className='socialmediaIcon' href="https://www.linkedin.com/in/anant-singh-24722a109">
+                                        <a className='socialmediaIcon' href="https://www.linkedin.com/in/anant-singh-24722a109" target="_blank">
                                             <i class="fa-brands fa-linkedin-in icon"></i>
                                         </a>
                                     </li>
                                     <li className="socialmedia">
-                                        <a className='socialmediaIcon' href="https://github.com/Anant1202/">
+                                        <a className='socialmediaIcon' href="https://github.com/Anant1202/" target="_blank">
                                             <i class="fa-brands fa-github-alt icon"></i>
                                         </a>
                                     </li>
@@ -44,7 +44,7 @@ function Homepage(event) {
                                         </div>
                                     </li>
                                     <li className="socialmedia">
-                                        <a className='socialmediaIcon' href="https://web.whatsapp.com/">
+                                        <a className='socialmediaIcon' href="https://web.whatsapp.com/" target="_blank">
                                             <i class="fa-brands fa-whatsapp icon"></i>
                                         </a>
                                     </li>

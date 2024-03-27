@@ -29,7 +29,7 @@ function WorkPage() {
         }, 2500);
         return () => clearInterval(intervalId);
     }, []);
-    
+
     return (
         <>
             <div className="projects">
@@ -38,10 +38,10 @@ function WorkPage() {
                     <div className="ekycproject">
                         <div className="ekyc1">
                             <div className="ekycsqaure">
-                                <a href="https://ekyc.bajajfinservsecurities.in/">                               
-                                <img src={sliderImages.project1[index]} 
-                                alt = 'Slider' height={"350px"} width={"440px"} 
-                                style={{ borderRadius: "10px" }} />
+                                <a href="https://ekyc.bajajfinservsecurities.in/" target="_blank">
+                                    <img src={sliderImages.project1[index]}
+                                        alt='Slider' height={"350px"} width={"440px"}
+                                        style={{ borderRadius: "10px" }} />
                                 </a>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ function WorkPage() {
                             <p className="desc">Bajaj Broking's efficient Demat Account opening process
                                 ensures a smooth, convenient experience,
                                 offering access to diverse investment opportunities across
-                                 various asset classes.
+                                various asset classes.
                                 <ul className="DescPoints">
                                     <li>Simplified Trading</li>
                                     <li>Expert Guidance</li>
@@ -70,7 +70,7 @@ function WorkPage() {
                                 <p>Backend Developer</p>
                             </div>
                             <hr />
-                            <a className="ekycprojlink" href="https://ekyc.bajajfinservsecurities.in/">LIVE DEMO
+                            <a className="ekycprojlink" href="https://ekyc.bajajfinservsecurities.in/"  target="_blank">LIVE DEMO
                                 <img className="projectlinkimg" src={ekyclink} alt="EKYC LINK" />
                             </a>
                         </div>
@@ -78,17 +78,17 @@ function WorkPage() {
                     <div className="ekycproject">
                         <div className="ekyc">
                             <div className="ekycsqaure">
-                                <a href="https://cosmos.bajajfinservsecurities.in/">
-                                <img src={sliderImages.project2[index]} 
-                                alt = 'Slider' height={"350px"} width={"450px"}
-                                style={{ borderRadius: "10px" }} />
+                                <a href="https://cosmos.bajajfinservsecurities.in/"   target="_blank">
+                                    <img src={sliderImages.project2[index]}
+                                        alt='Slider' height={"350px"} width={"450px"}
+                                        style={{ borderRadius: "10px" }} />
                                 </a>
                             </div>
                         </div>
                         <div className="ekydesc">
                             <p className="projectName">COSMOS - RM Portal</p>
                             <p className="desc">A valuable tool for RMs to better serve clients
-                                through data-driven insights, designed to empower 
+                                through data-driven insights, designed to empower
                                 Relationship Managers (RMs) with crucial company-related information.
                                 Provided RMs with insights including:-
                                 <ul className="DescPoints">
@@ -98,7 +98,7 @@ function WorkPage() {
                                     <li>Reports</li>
                                 </ul>
                             </p>
-                            <p  className="projectInfodata">PROJECT INFO</p>
+                            <p className="projectInfodata">PROJECT INFO</p>
                             <hr />
                             <div className="yearekyc">
                                 <p>Year</p>
@@ -110,7 +110,7 @@ function WorkPage() {
                                 <p>Backend Developer</p>
                             </div>
                             <hr />
-                            <a className="ekycprojlink" href="https://cosmos.bajajfinservsecurities.in/">LIVE DEMO
+                            <a className="ekycprojlink" href="https://cosmos.bajajfinservsecurities.in/" target="_blank">LIVE DEMO
                                 <img className="projectlinkimg" src={ekyclink} alt="EKYC LINK" />
                             </a>
                         </div>
@@ -118,16 +118,16 @@ function WorkPage() {
                     <div className="ekycproject">
                         <div className="ekyc">
                             <div className="ekycsqaure">
-                                <a href="https://cosmos.bajajfinservsecurities.in/login">                                
-                                <img src={sliderImages.project3[index]} 
-                                alt = 'Slider'height={"350px"} width={"450px"} 
-                                style={{ borderRadius: "10px" }} />
+                                <a href="https://cosmos.bajajfinservsecurities.in/login" target="_blank">
+                                    <img src={sliderImages.project3[index]}
+                                        alt='Slider' height={"350px"} width={"450px"}
+                                        style={{ borderRadius: "10px" }} />
                                 </a>
                             </div>
                         </div>
                         <div className="ekydesc">
                             <p className="projectName">TELECALLER - Ekycadmin</p>
-                            <p  className="desc">Implemented a system where Telecallers assisted individuals in
+                            <p className="desc">Implemented a system where Telecallers assisted individuals in
                                 completing their EKYC process efficiently. This innovation saved
                                 time for users and significantly improved their overall experience with EKYC2.0.
                                 <ul className="DescPoints">
@@ -137,7 +137,7 @@ function WorkPage() {
                                     <li>Seamless experience in account opening and updates</li>
                                 </ul>
                             </p>
-                            <p  className="projectInfodata">PROJECT INFO</p>
+                            <p className="projectInfodata">PROJECT INFO</p>
                             <hr />
                             <div className="yearekyc">
                                 <p>Year</p>
@@ -149,7 +149,7 @@ function WorkPage() {
                                 <p>Lead Backend Developer</p>
                             </div>
                             <hr />
-                            <a className="ekycprojlink" href="https://cosmos.bajajfinservsecurities.in/login">LIVE DEMO
+                            <a className="ekycprojlink" href="https://cosmos.bajajfinservsecurities.in/login" target="_blank">LIVE DEMO
                                 <img className="projectlinkimg" src={ekyclink} alt="EKYC LINK" />
                             </a>
                         </div>
@@ -157,16 +157,16 @@ function WorkPage() {
                     <div className="ekycproject">
                         <div className="ekyc2">
                             <div className="ekycsqaure">
-                                <a href="https://www.bajajbroking.in/">
-                                <img src={sliderImages.project4[index]} 
-                                alt = 'Slider' height={"350px"} width={"460px"} 
-                                style={{ borderRadius: "10px" }} />       
+                                <a href="https://www.bajajbroking.in/"  target="_blank">
+                                    <img src={sliderImages.project4[index]}
+                                        alt='Slider' height={"350px"} width={"460px"}
+                                        style={{ borderRadius: "10px" }} />
                                 </a>
                             </div>
                         </div>
                         <div className="ekydesc">
                             <p className="projectName">BAJAJ BROKING - CORPORATE WEBSITE</p>
-                            <p  className="desc">Bajaj Broking offers a simplified, smart & secure investment
+                            <p className="desc">Bajaj Broking offers a simplified, smart & secure investment
                                 experience meant for everyone, whether you're an experienced trader,
                                 seasoned investor, or just stepping into the world of markets.
                                 <ul className="DescPoints">
@@ -176,7 +176,7 @@ function WorkPage() {
                                     <li>Driven by Innovation & Empathy</li>
                                 </ul>
                             </p>
-                            <p  className="projectInfodata">PROJECT INFO</p>
+                            <p className="projectInfodata">PROJECT INFO</p>
                             <hr />
                             <div className="yearekyc">
                                 <p>Year</p>
@@ -188,7 +188,7 @@ function WorkPage() {
                                 <p>Lead Backend Developer</p>
                             </div>
                             <hr />
-                            <a className="ekycprojlink" href="https://www.bajajbroking.in/">LIVE DEMO
+                            <a className="ekycprojlink" href="https://www.bajajbroking.in/"  target="_blank">LIVE DEMO
                                 <img className="projectlinkimg" src={ekyclink} alt="EKYC LINK" />
                             </a>
                         </div>

@@ -26,11 +26,11 @@
 .summary {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 90px;
 }
 
 .basicsummary {
-    text-align: left;
+    text-align: center;
 }
 
 .buttoncontact {
