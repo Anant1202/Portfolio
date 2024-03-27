@@ -11,7 +11,7 @@ function Header() {
             <div >
               <ul className="menubar"  data-animation="to-top">
                 <li>
-                  <a href="http://localhost:3000/">
+                  <a href="/">
                     <span>Home</span>
                     <span>
                       <i class="fa-solid fa-house" aria-hidden="true"></i>
@@ -19,7 +19,7 @@ function Header() {
                   </a>
                 </li>
                 <li>
-                  <a href="http://localhost:3000/about">
+                  <a href="/about">
                     <span>About</span>
                     <span>
                       <i class="fa-solid fa-address-card" aria-hidden="true"></i>
@@ -27,7 +27,7 @@ function Header() {
                   </a>
                 </li>
                 <li>
-                  <a href="http://localhost:3000/workpage">
+                  <a href="/workpage">
                     <span>Work</span>
                     <span>
                       <i class="fa-solid fa-list-check" aria-hidden="true"></i>
@@ -35,7 +35,7 @@ function Header() {
                   </a>
                 </li>
                 <li>
-                  <a href="http://localhost:3000/contactpage">
+                  <a href="/contactpage">
                     <span>Contact</span>
                     <span>
                       <i class="fa-solid fa-phone" aria-hidden="true"></i>
