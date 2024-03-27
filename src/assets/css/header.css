@@ -17,25 +17,26 @@
     font-size: 25px;
     font-family: "Bebas Neue", sans-serif;
     gap: 70px;
+    cursor: pointer;
 }
 
-.menubar a {
+.menubar li {
     position: relative;
     display: block;
     overflow: hidden;
 }
 
-.menubar a span {
+.menubar li span {
     transition: transform 0.3s ease-out;
     color: #FFE6E6;
 }
 
-.menubar a span:first-child {
+.menubar li span:first-child {
     display: inline-block;
     padding: 10px;
 }
 
-.menubar a span:last-child {
+.menubar li span:last-child {
     position: absolute;
     top: 0;
     right: 0;
@@ -51,11 +52,11 @@
     font-size: 35px;
 }
 
-.menubar a:hover span:first-child {
+.menubar li:hover span:first-child {
     transform: translateY(100%);
 }
 
-.menubar a:hover span:last-child,
+.menubar li:hover span:last-child,
 .menubar[data-animation] a:hover span:last-child {
     transform: none;
 }
