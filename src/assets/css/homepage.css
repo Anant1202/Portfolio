@@ -259,6 +259,10 @@
         font-weight: 450;  
         height: 40px;      
     }
+    .buttons {
+        flex-direction: column;
+        gap:10px
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -274,6 +278,9 @@
     .basicsummary {
         text-align: center;
     }
+    .buttons { 
+        gap:10px
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -281,6 +288,7 @@
         flex-direction: column;
         max-width: 75%;
         margin: 0 auto;
+        gap: 10px;
     }
     .nameheading {
         flex-direction: column;

@@ -236,6 +236,7 @@ textarea {
     .socialmediaIcon {
         width: 55px;
         height: 55px;
+        line-height: 55px;
     }
 
     .socialIcon {
@@ -289,6 +290,9 @@ textarea {
         font-size: 15px;
         font-weight: 450;
     }
+    .socialmediaIcon {
+        line-height: 55px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -300,5 +304,8 @@ textarea {
         height: 22px;
         width: 280px;
         font-size: 15px;
+    }
+    .socialmediaIcon {
+        line-height: 55px;
     }
 }

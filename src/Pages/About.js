@@ -1,5 +1,5 @@
 import "../assets/css/aboutpage.css"
-import profile from "../assets/img/download.png"
+import profile from "../assets/img/mypic.png"
 import csharp from "../assets/img/c-sharp.png"
 import mssql from "../assets/img/mysql.png"
 import linux from "../assets/img/linux.png"
